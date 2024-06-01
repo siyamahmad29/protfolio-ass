@@ -1,0 +1,32 @@
+@media screen and (max-width:576px){
+    .navber{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .list-items{
+        justify-content: center;
+        min-height: 40px;
+
+    }
+
+    .title-container{
+        /* flex-direction: column; */
+        justify-content: center;
+    }
+    .profile-img img {
+        height: 200px;
+        width: 200px;
+        
+    }
+    .link-icon i {
+        margin-bottom: 20px;
+    }
+    .display-benne{
+        margin-top: 20px;
+    }
+    .display-benner p {
+        flex-direction: column;
+    }
+
+
+}
