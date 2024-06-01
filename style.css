@@ -1,0 +1,385 @@
+/* Navber start */
+.navber{
+    display: flex;
+   justify-content: space-between;
+}
+
+.logo h1 {
+    font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: var(--primary-color);
+  font-size: 32px;
+}
+.logo{
+     width: 30%;
+    margin: 0 auto;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+}
+.nav-item{
+    margin: 0 auto;
+    
+}
+.list-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    gap: 10px ;
+}
+.list-items a {
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 8px;
+}
+.nav-button a { 
+    padding: 7px 20px ;
+    background-color: var(--primary-color);
+    
+}
+/* navber end */
+
+/* Title section start */
+.title-container{
+    display: flex;
+}
+.title img {
+    height: 20px;
+    width: 20px;
+}
+.profile-img-container{
+    width: 50%;
+    height: 200px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img img {
+height:270px ;
+width: 270px;
+border-radius: 50%;
+
+}
+.display-container{
+    width: 35%;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.khulna {
+    color: var(--primary-color);
+}
+.title-dec {
+    font-size: 10px;
+    font-weight: 0px;
+
+}
+.title-skill img {
+    height: 20px;
+    width: 20px;
+}
+
+.title-button{
+    margin-top: 25px;
+    width: 140px;
+    height: 35px;
+    border: solid 1px white ;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+.button-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.button-text1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height:20px ;
+    width:80 ;
+    background-color: var(--primary-color);
+    border: solid 2px var(--primary-color);
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+.material-symbols-outlined{
+    background-color: transparent;
+    height: 25px;
+    width: 25px;
+    margin: 0px;
+}
+
+.link-icons{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+
+.display-benner {
+    min-height: 80px;
+    width: 100%;
+    border: solid 2px white ;
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   
+}
+
+.display-benner p{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+
+}
+.display-benner img {
+    height: 20px;
+    width: 20px;
+}
+.my-about{
+    display: flex;
+
+}
+
+.about-me{
+    padding-top: 20px;
+    height: 150px;
+    width: 35%;
+    margin: 0 auto;
+}
+.feedback-star{
+    padding-top: 20px;
+    margin: 0 auto;
+    height: 150px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+}
+/* Title section end */
+
+/* Body section start */
+.experience-container {
+    background-color:  rgba(255, 177, 71, 0.1);
+    width: 100%;
+    height: 270px;
+    display: flex;
+}
+.my-experience1{
+    height: 260;
+    width: 35%;
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.my-experience1 h1{
+    background-color: transparent;
+}
+.my-experience1 p {
+    background-color: transparent;
+}
+.my-experience2{
+    height: 260;
+    width: 35%;
+    margin: 0 auto;
+    padding-top:50px;
+    background-color: transparent;
+
+}
+.experiance-line{
+    background-color: transparent;
+}
+.my-experience2 h1 {
+    border-bottom: solid 1px rgb(255, 255, 255);
+   padding-bottom: 20px;
+   background-color: transparent;
+
+}
+.my-experience2 h3{
+    background-color: transparent;
+    padding-bottom: 5px;
+}
+
+.awards-container{
+    width: 70%;
+   height: 320;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.awards-container h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.awards-container p {
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+
+.mobile-app{
+    width: 100%;
+    height: 120px;
+    background-color: black;
+}
+.mobile-app-title{
+    font-size: 17px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 25px;
+
+}
+.mobile-app p{
+    font-size: 10px;
+    text-align: left;
+    background-color: transparent;
+    margin-left: 25px;
+}
+
+.design-competition{
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    margin-top: 25px;
+}
+.design-competition-title {
+    font-size: 17px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 25px;
+
+}
+.design-competition p{
+    text-align: left;
+    background-color: transparent;
+    margin-left: 25px;
+
+}
+
+.contect-container{
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 25px;
+    text-align: center;
+}
+.contect-form{
+    margin-top: 45px;
+    width: 100%;
+    height: 70%;
+    background-color:rgba(253, 111, 0, 0.1) ;
+
+}
+.contect-form h1{
+    background-color: transparent;
+    padding-top: 30px;
+}
+
+.form1{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 40px;
+
+}
+.form1 form{
+    background-color: transparent;
+
+}
+.form1 input{
+    width: 210px;
+    
+
+
+}
+.form2{
+    background-color: transparent;
+    display: flex;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.form2 input{
+    width: 400px;
+}
+.form-button  {
+    border: solid 1px var(--primary-color);
+    padding: 7px 20px ;
+    background-color: var(--primary-color);
+    margin-left: 35px;
+    font-size: 10px;
+    width: 100px;
+    margin-top: 56px;
+}
+.form-button a {
+    text-decoration: none;
+    background-color: var(--primary-color);
+
+}
+/* Body srction end */
+
+/* footer section start */
+.footer-container{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+    width: 30%;
+    margin: 0 auto;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+}
+.footer-logo h1 {
+    font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: var(--primary-color);
+  font-size: 32px;
+  background-color: transparent;
+  text-align: center;
+
+}
+.footer-list-item{
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+    background-color: transparent;
+
+}
+.footer-list-item ul {
+    background-color: transparent;
+    align-items: center;
+}
+.footer-list-item a {
+    text-decoration: none;
+    font-size:20px;
+    background-color: transparent;
+    margin-left: 15px;
+}
